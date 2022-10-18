@@ -7,7 +7,7 @@ public class SleepMessages {
 		for (int i = 0; i < importantInfo.length; i++) {
 			// Pausa de 4 segundos
 			Thread.sleep(4000);
-			// Mostramos por pantalla
+			// Mostramos por pantallas
 			System.out.println(importantInfo[i]);
 		}
 	}
